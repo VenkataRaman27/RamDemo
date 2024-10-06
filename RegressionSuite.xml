@@ -1,0 +1,25 @@
+
+<suite name="Suite" >
+  <test name="Smoke Testing">
+  
+       <groups>
+            <run>
+                <include name="Smoke" />
+            </run>
+        </groups>
+  
+    <classes>
+      <class name="com.Hrms.tests.TestPIMPage">
+       
+        <method>
+      
+          <include name = "viewEmployeeList"/>
+	    
+	    </method>  
+		  
+	</class>
+	
+	
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
